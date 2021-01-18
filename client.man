@@ -1,0 +1,12 @@
+.TH CLIENT 1 "25 November 2020"
+.SH NAME
+client - start a client process
+.SH SYNOPSIS
+client
+port
+IP
+.SH DESCRIPTION
+client begins a client process that will connect to a server at the given port and IP address. The port number must lie between 5000 and 64000. The client will read its transactions T<N> from standard input.
+.SH "SEE ALSO"
+server(1)
+

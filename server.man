@@ -1,0 +1,10 @@
+.TH SERVER 1 "25 November 2020"
+.SH NAME
+server - start a server process
+.SH SYNOPSIS
+server
+port
+.SH DESCRIPTION
+server begins a server process that will accept clients at the given port. The port number must lie between 5000 and 64000. When a client connects the server will expect to read the hostname and then an integer N to perform its transaction.
+.SH "SEE ALSO"
+client(1)
